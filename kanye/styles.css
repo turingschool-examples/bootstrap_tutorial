@@ -8,7 +8,7 @@
   bottom: 1;
   left: 0;
   right: 0;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 .img-overlay:before {
@@ -16,4 +16,8 @@
   display: block;
   /* adjust 'height' to position overlay content vertically */
   height: 50%;
+}
+
+ul a {
+  color:#696969;
 }
