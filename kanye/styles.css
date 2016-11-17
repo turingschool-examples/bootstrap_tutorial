@@ -8,7 +8,6 @@
   bottom: 1;
   left: 0;
   right: 0;
-  /*text-align: left;*/
 }
 
 .img-overlay:before {
@@ -18,6 +17,6 @@
   height: 50%;
 }
 
-ul a {
+a {
   color:#696969;
 }
