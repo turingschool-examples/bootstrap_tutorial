@@ -3,6 +3,7 @@
   <head>
     <title>Baby's second bootstrap site</title>
     <link href='css/bootstrap.css' rel='stylesheet'>
+    <link href='styles.css' rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav class="navbar navbar-dark" style="background-color: #000000;">
@@ -29,12 +30,13 @@
         </ul>
       </div>
     </nav>
-
-    <div id="img_container" class="container-fluid">
-      <img src="images/kanye.jpg" class="img-responsive"/>
-      <div class="img-overlay">
-        <button type="button" class="btn btn-md btn-primary">Updates</button>
-      </div>
+    <div class="container">
+      <div class="img-wrapper">
+    <img class="img-responsive" src="images/kanye.jpg">
+    <div class="img-overlay">
+      <button class="btn btn-md btn-primary">Updates</button>
+    </div>
+</div>
     </div>
     <div class="container-fluid">
       <div class="row">
@@ -53,6 +55,7 @@
       </div>
 
     </div>
+  </div>
   </body>
 
 
