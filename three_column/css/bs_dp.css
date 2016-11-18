@@ -1,0 +1,29 @@
+*{
+  background-color: black;
+}
+
+p{
+  border:2px solid black;
+  background-color: silver;
+}
+h1{
+  color:white;
+  text-align:center;
+}
+h1:hover{
+  border: 2px solid firebrick;
+  background-color: white;
+  color:black;
+}
+h2{
+  color:white;
+}
+h3{
+  color:white;
+}
+h4{
+  color:white;
+}
+li{
+  background-color: white;
+}
