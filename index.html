@@ -1,173 +1,105 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-    <title>Bootstrap Tutorial</title>
-    <!-- <link rel="stylesheet" href="css/reset.css"> -->
-    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap -->
+    <link href="three_column/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <h1>Turing M2 Bootstrap Tutorial</h1>
-    <h2>Goals</h2>
     <div class="container">
-      <p>By the end of this tutorial, you will know/be able to:</p>
-      <ul>
-        <li>Have a basic understanding of Bootstrap and its capabilities.</li>
-        <li>Learn how adding Bootstrap classes to an element can change its style.</li>
-        <li>Learn how to use the Bootstrap documentation to solve issues.</li>
-        <li>Understand what responsive web design is.</li>
-        <li>Understand the container.</li>
-        <li>Understand the grid system of CSS Frameworks.</li>
-        <li>Understand how to use glyphicons.</li>
-        <li>Be able to translate this knowledge to other CSS Frameworks including, but not limited to Skeleton, Materialize and Foundation.</li>
-      </ul>
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
 
-    <h2>Review</h2>
-
-    <div class="container">
-
-      <ul>
-        <li>HTML is a <em>markup language</em> used to describe content.</li>
-        <li>CSS can be used to style that content/change the way that it is displayed on a page.</li>
-        <li>JavaScript can be used to further enhance both the look and behavior of our websites.</li>
-      </ul>
-
-      <p>At a high level, content itself is made up of words, images, videos, etc., but is not in and of itself very different from other documents that people produce. HTML, CSS, and JavaScript together help shape the way that our <strong>browsers</strong> display that content.</p>
-    </div>
-
-    <h2>Background</h2>
-    <div class="container">
-
-      <p><strong>Bootstrap is a CSS/JavaScript framework.</strong> At its core it looks to provide developers with a starter kit for the CSS and JavaScript that they might want to use on their pages. <em>Many developers have written code to produce a navbar with dropdowns</em>; Bootstrap makes it so that you don't have to reinvent the wheel each time you want that same functionality.</p>
-
-      <ul>
-        <li>Click <a href="css/main.css">this link</a> to get a sense of how much CSS was used to style this page. Not very much, right?</li>
-        <li>Click <a href="css/bootstrap.css">this link</a> to see how much CSS is included when you use Bootstrap in your project. A ton!</li>
-      </ul>
-
-      <p>Using Bootstrap is using styles that other people wrote so that you don't have to. It will continue to be important to have a fundamental understanding of how HTML/CSS/JavaScript work together to make a webpage work, but Bootstrap will allow you to create a decent looking page without too much initial setup.</p>
-    </div>
-    <h2>Responsive Web Design</h2>
-    <div class="container">
-
-      <p>One of the advantages of Bootstrap is that its components are <em>responsive</em>. What exactly does that mean? Open some of the links below (each created with Bootstrap), and then drag the edge of your browser left and right to narrow and expand the viewport.</p>
-
-      <ul>
-        <li><a href="https://www.lyft.com/">Lyft</a></li>
-        <li><a href="http://www.vogue.com/">Vogue</a></li>
-        <li><a href="http://riot.design/en/">Riot</a></li>
-        <li><a href="http://www.newsweek.com/">Newsweek</a></li>
-      </ul>
-
-      <p>You'll notice that the layout of these sites changes as the width of your viewport changes. Something like this:</p>
-
-      <img src="images/responsive.gif" alt="Narrow that viewport!">
-
-      <p>Why would we want this behavior? In a world of tablets and smartphones it can be advantageous to have a site that responds differently based on the width of a user's browser. These sites detect that width, and make som adjustments accordingly.</p>
-
-      <p>For additional Bootstrap examples, feel free to look at the sites below.</p>
-      <ul>
-        <li><a href="http://expo.getbootstrap.com/">Bootstrap Expo</a></li>
-        <li><a href="http://builtwithbootstrap.com/">Built with Bootstrap</a></li>
-      </ul>
-
-      <p>Compare that to the <a href="https://github.com/">GitHub home page</a>, or even your GitHub profile page. As you narrow the viewport things will start to shift, but fairly quickly they will simply be cut off. <em>Sidenote:</em> if you open GitHub on your phone it looks considerably better. It's possible that they've taken an <em>adaptive</em> approach to dealing with different screen sizes. If you're curious about the differences, take a look at <a href="https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/">this article.</a></p>
-    </div>
-    <h2>Basic Three Column Layout</h2>
-    <div class="container">
-
-      <p>One of the goals of this tutorial is to begin to get you familiar with reading documentation for the tools that you use. Before you dig in, take a moment and look at the <a href="http://getbootstrap.com/">Bootstrap website</a>. In particular, look at the <em>Getting Started</em>, <em>CSS</em>, and <em>Components</em> sections of the site.</p>
-
-      <p>Once you've had a little bit of an opportunity to dig around, go back to the <a href="http://getbootstrap.com/getting-started/">Getting Started</a> page and download and unzip Bootstrap.</p>
-
-      <h3>Getting Set Up</h3>
-
-      <ul>
-        <li>In the directory that you forked for this tutorial, create a new <code>three_column</code> directory.</li>
-        <li>Find the <em>basic template</em> on the Getting Started page, and put it into a new index.html file in our project directory. Notice that in that file you have the following lines:
-          <ul>
-            <li>A link to <code>css/bootstrap.min.css</code></li>
-            <li>A script tag to a JavaScript library (jQuery) hosted by Google</li>
-            <li>A script tag pointing to a local copy of <code>bootstrap.min.js</code> in a <code>js</code> folder</li>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
           </ul>
         </li>
-        <li>Open your <code>index.html</code> page in your browser, and you should have a pretty blandly styled "Hello World."</li>
-        <img src="images/hello.png" alt="Hello">
-        <li>If you press <code>ctrl-opt-i</code> and look at the console (assuming you're using Chrome) you should see that the CSS and JavaScript files that are referenced in this page aren't yet loading.</li>
-        <img src="images/failed.png" alt="failed">
-        <li>In order for them to load, you'll need to move the <code>js</code>, <code>css</code>, and <code>fonts</code> folders that you downloaded from the Bootstrap site to the new <code>three_column</code> directory so that your new <code>index.html</code> file references them appropriately. Do that now.</li>
-        <li>Open your <code>index.html</code> file in the browser again to see what you have. Ideally, you'll still see "Hello World," but now it will be styled in a sans-serif font.</li>
-        <img src="images/hello-styled.png" alt="Hello styled">
-        <li>Celebrate!</li>
       </ul>
-
-      <h3>Adding Content</h3>
-
-      <p>Sometimes you just need a little bit of content to see what your page will look like with words on it. When that happens, lots of people use <a href="https://en.wikipedia.org/wiki/Lorem_ipsum">lorem ipsum</a>, or some other dummy text. If you're in a professional setting, <a href="http://www.lipsum.com/feed/html">the classic version</a> is usually a good choice, but if you're working on something for yourself or friends there are <a href="http://veggieipsum.com/">lots</a> <a href="http://seinfeldipsum.com/">of</a> <a href="https://baconipsum.com/">other</a> <a href="https://hipsum.co/">choices</a>.</p>
-
-      <ul>
-        <li>Find three paragraphs of lorem ipsum and add it to the body of your <code>index.html</code> file.</li>
-        <li>Add titles above each of the paragraphs.</li>
-        <li>Wrap the paragraphs in <code>p</code> tags and the headers in <code>h2</code> tags.</li>
-        <li>Open the file in your browser again to see what you have now. There should be three paragraphs with heading stacked on top of each other.</li>
-        <img src="images/stacked.png" alt="Stacked paragraphs">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <h1>Hello, world!</h1>
 
-      <h3>Using Bootstrap</h3>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="three_column/js/bootstrap.min.js"></script>
 
-      <p>Now for the new stuff. We're going to use some of the styles that Bootstrap gives us to style those paragraphs so that instead of showing up on top of each other they line up side by side. One of the things you'll notice is that styling with Bootstrap often becomes an exercise in trying to figure out how some of the code snippets they offer you can be used on your content. To that end:</p>
-
-      <ul>
-        <li>Go back to the CSS section of the Bootstrap site to see what we can find on grids.</li>
-        <li>On that page, there should be an example called <code>Stacked-to-horizontal</code>. Copy the code from that example and put it into your <code>index.html</code> file below the paragraphs that you have already added.</li>
-        <li>If you open your page now, you should see some text like <code>.col-md-1</code> peppering the bottom of your screen. It might be hard to tell, but those snippets are arranged into a grid made up of twelve columns. Elements styled with a <code>.col-md-1</code> class have a width 1/12 the size of the total, while elements styled with a <code>.col-md-6</code> class have a width 1/2 the size of the total.</li>
-        <img src="images/stacked-plus.png" alt="Stacked plus">
-        <li>If you open the dev tools again (<code>cmd-opt-i</code> in Chrome) and click on the small box with an arrow in the top left corner of the console (like this <img class="inline-image" src="images/arrow.png" alt="arrow">), you should be able to hover over different snippets of text to see the box that contains them.</li>
-        <li>As you do that, notice that the three column grid that we want is represented by the divs styled with a class of <code>.col-md-4</code>. Replace the <code>.col-md-4</code> snippets with our headers and paragraphs</li>
-        <img src="images/first-columns.png" alt="Columns with stuff still in them">
-        <li>If you open the page now, you should see that we're getting close. We just have the other text snippets still hanging out. Delete those rows from our <code>index.html</code> and we should have the three column view that we were looking to create.</li>
-        <img src="images/columns.png" alt="Columns">
-        <li>The one big issue I see remaining is that our layout seems to be bumping right up against the edge of the page. Sometimes we want this behavior (look at the headings in this document for example), but in this case we most likely want to give the content some breathing room. In your <code>index.html</code> file, put a <code>div</code> tag before the Hello World <code>h1</code> and add a closing tag after the last <code>div</code> associated with your newly created columns. Give the first <code>div</code> a class of <code>container</code> (e.g. <code>&lt;div class="container"&gt;</code>). That should push your content to the center.</li>
-        <img src="images/columns-container.png" alt="Columns in a container">
-        <li>If you'd like, at this point you can create an additional stylesheet in the <code>css</code> folder and add some custom styles to further change the look of these columns (e.g. add a <code>background-color</code>, or <code>border</code>). Be sure to include the link to the new stylesheet <em>underneath</em> the link to the Bootstrap stylesheet in the <code>head</code> of your document.</li>
-      </ul>
-    </div>
-    <h2>Navbar</h2>
-    <div class="container">
-      <p>Let's say we also want to add a navbar to the page that we're working on. We'll follow a similar process. Check to see if you can find the code you need on the <code>Components</code> section of the Bootstrap site. Once you've done that, copy it to your index file, and make adjustments until you have it looking the way you'd like.</p>
-      <p>Be sure to check on your progress along the way. With Bootstrap, you might run into a situation where you've removed something without fully understanding what it does. To prevent this, be sure to check in frequently to see that you still have the functionality you expect as you make changes.</p>
-
-      <p>Spend some additional time on the Components page to get a sense for what Bootstrap has to offer.</p>
-    </div>
-    <h2>Workshop</h2>
-    <div class="container">
-
-      <ul>
-        <li>In the repo you cloned there's a taylor folder and a kanye folder</li>
-        <li>Each has a screenshot</li>
-        <li>See if you can recreate the screenshot using the files provided</li>
-        <li>Taylor has more substantial starting files (including an html file and Bootstrap files) as well as a <code>final.html</code> file for you to reference if you get stuck</li>
-        <li>Kanye has just the content and images</li>
-        <li>Start with Taylor (try to do as much as you can without looking at <code>final.html</code>), then Kanye</li>
-        <li>Try to timebox this to no more than 3 to 3.5 hours. We don't expect that it will be pixel perfect, and will have some time to discuss in class.</li>
-        <li>Commit your changes, push to your GitHub repository, and then submit a pull request by following the instructions in the <code>README.md</code> file in this repository.</li>
-      </ul>
-    </div>
-    <h2>Additional Resources</h2>
-    <div class="container">
-
-      <ul>
-        <li><a href="http://creativealive.com/wp-content/uploads/2014/01/bootstrap3-cheatsheet.pdf">Bootstrap Cheat Sheet</a></li>
-        <li><a href="https://gist.github.com/rwarbelow/da3ef21480b704305e68">Styling in Sinatra</a></li>
-      </ul>
-    </div>
-    <h2>Other Opinions</h2>
-    <div class="container">
-      <ul>
-        <li><a href="http://www.designyourway.net/blog/inspiration/the-case-against-using-bootstrap-to-design-websites/">The Case Against</a></li>
-        <li><a href="http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly">Responsive Design in Gifs</a></li>
-      </ul>
-    </div>
+<div class="row">
+  <div class="col-md-4">
+    <h2>First Title</h2>
+      <p>
+        Jerry: Newman is my sworn enemy and he lives down the hall from my home. My home Elaine! Where I sleep, where I come to play with my toys. Elaine: He took it out. Jerry: The New York Yankees? George: The New York Yankees! Jerry: Ruth, Gehrig, DiMaggio, Mantle... Costanza. Kenny Banya [reading]: Why do they call it Ovaltine? The mug is round. The jar is round. They should call it Roundtine. Elaine: I don't know how you guys walk around with those things. George: I don't trust men in capes. Timmy: Did you just double-dip that chip? Kramer: And is there a tree? Frank: No. Instead, there's a pole. Requires no decoration. I find tinsel distracting.
+      </p>
+  </div>
+  <div class="col-md-4">
+    <h2>Second Title</h2>
+      <p>
+        Jerry: I like the button fly. That is one place on my wardrobe I do not need sharp interlocking metal teeth. Man on beach: Is anyone here a marine biologist. Kramer: Retail is for suckers. Jerry: If the cops arrest a mime, do they tell him he has the right to remain silent. George: I can’t carry a pen. I’m afraid I’ll puncture my scrotum. Mr. Ross: It's a terrible tragedy when parents outlive their children. George: Yes, I agree. I hope my parents go long before I do? Elaine: I don't know how you guys walk around with those things. Jerry: I gotta get on that Internet. I'm late on everything. Newman: I'm a little offended, Jerry. Jerry: You're not a little anything, Newman.
+      </p>
+  </div>
+  <div class="col-md-4">
+    <h2>Third Title</h2>
+      <p>
+        George: I don't think I'm special. My mother always said I'm not special. ; Jerry: I wonder if illiterate people get the full effect of alphabet soup. Elaine: I think he's got ideas. Jerry: I wonder if any woman every said that about Einstein. Susan: It's not a name, it's a number! Jerry: They'd pick her up in about ten minutes." Jerry: Men want the same thing from their underwear that they want from women: a little bit of support, and a little bit of freedom.
+      </p>
+      <div class="row">
+  </div>
+</div>
+</div>
   </body>
 </html>
