@@ -1,0 +1,32 @@
+.front-info {
+    background-color: lightgrey;
+    overflow:auto;
+    }
+
+.col-md-4 {
+    display:block;
+    text-align:center
+  }
+i {
+    font-size:1.5em;
+    }
+.top-left-button {
+    background-color: lightgray;
+    color: black;
+    }
+.top-right-button {
+    background-color: dodgerblue
+    }
+.first-button {
+    background-color: lightgreen
+    }
+.second-button {
+    background-color: deepskyblue
+    }
+.third-button {
+    background-color: orange
+    }
+button {
+    border-radius: 6px;
+    color: snow
+    }
