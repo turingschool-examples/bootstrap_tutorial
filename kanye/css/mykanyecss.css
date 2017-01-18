@@ -1,0 +1,59 @@
+.navbar {
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav.navbar-brand {
+  line-height: 20px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.row {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.nav-pills li a {
+  color: #777;
+}
+
+.update-button {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.jumbo-kanye {
+}
+
+.jumbo-kanye-wrapper {
+  background-image: url("../images/kanye.jpg");
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 80%;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.three-columns {
+  display: block;
+  position: absolute;
+  top: 100%;
+  margin: 0 10% 0 10%;
+}
+
+html,
+body {
+  height: 100%;
+}
