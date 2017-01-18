@@ -1,0 +1,22 @@
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 1;
+  left: 0;
+  right: 0;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+a {
+  color:#696969;
+}
