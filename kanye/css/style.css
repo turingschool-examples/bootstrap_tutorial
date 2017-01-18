@@ -1,0 +1,17 @@
+
+.cover {
+  background: url('../images/kanye.jpg') no-repeat center;
+  min-height: 500px;
+  background-size: cover;
+  transform: scale(1.2);
+  overflow: hidden;
+  margin: 50px 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.btn {
+  margin: 40px 100px;
+}
