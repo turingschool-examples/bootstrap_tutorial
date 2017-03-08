@@ -1,0 +1,46 @@
+body {
+  color: grey;
+  text-align: center;
+  margin: 15px;
+}
+
+h1, h3, {
+  color: black;
+}
+
+.col-md-6 {
+  background: rgb(234, 236, 239);
+  text-align: left;
+  float: left;
+}
+
+
+img {
+  float: right;
+}
+
+.top {
+  background-color: blue;
+  color: white;
+}
+
+.first {
+  background-color: lightgreen;
+  color: white;
+}
+
+.second{
+  background-color: lightblue;
+  color: white;
+}
+
+.third{
+  background-color: orange;
+  color: white;
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
