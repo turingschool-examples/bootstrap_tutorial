@@ -1,0 +1,18 @@
+body {
+  background-color: #F57913;
+  padding: 70px;
+}
+
+p {
+  border-width: thin;
+  border-style: dashed;
+}
+
+.navbar {
+  padding-top: 5px;
+  background-color: gray;
+}
+
+.btn {
+  background-color: green;
+}
