@@ -1,3 +1,13 @@
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
 .navbar-text {
   font-size: 18px;
+}
+
+.jumbotron h1 {
+  font-size: 38px;
 }
