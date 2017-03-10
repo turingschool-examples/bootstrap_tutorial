@@ -1,16 +1,30 @@
-
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-
-.navbar-text {
-  font-size: 18px;
-}
+/*
+============================================
+jumbotron
+============================================
+ */
 
 .jumbotron {
-  padding: 10px 50px;
+  max-height: 640px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
-.jumbotron h1 {
-  font-size: 38px;
+
+.jumbotron img {
+  height: 640px;
 }
+
+/*
+============================================
+update button
+============================================
+ */
+
+ .jumbotron .update-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: 30px;
+ }
