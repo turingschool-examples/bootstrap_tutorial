@@ -4541,7 +4541,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #000000;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -6797,4 +6797,22 @@ button.close {
     display: none !important;
   }
 }
+
+
+.fluid-ratio-resize {
+	max-width: 960px; /* actual img width */
+	*height: 150px; /* actual img height - IE7 */
+	background-image: url(students.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.fluid-ratio-resize:after {
+	content: " ";
+	display: block;
+	width: 100%;
+	padding-top: 4.918%; /* slope */
+	height: 102.786px; /* start height */
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */

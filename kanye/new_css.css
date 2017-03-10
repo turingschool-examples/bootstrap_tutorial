@@ -1,0 +1,41 @@
+body {
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 100;
+  font-family: Arial;
+  color: #333333;
+  background-image: url(blurr_bkgrnd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ }
+
+a {
+  color: #23a2b7; }
+a:hover {
+  color: #ef5323; }
+a:visited {
+  color: #ef5323; }
+
+hr {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 1px solid #696d6d; }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px 50px;
+     }
+
+  @media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
+  }
+
+  @media (min-width: 550px) {
+    .container {
+      width: 80%; }
+     }
