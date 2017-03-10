@@ -8,6 +8,9 @@
   font-size: 18px;
 }
 
+.jumbotron {
+  padding: 10px 50px;
+}
 .jumbotron h1 {
   font-size: 38px;
 }
