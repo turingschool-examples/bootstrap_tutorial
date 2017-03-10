@@ -5,9 +5,11 @@ navbar
  */
 
 .navbar {
-  background-color: black;
-  border-radius: 0;
+    background-color: black;
+    border-radius: 0;
+    margin-bottom: 0;
 }
+
 
 /*
 ============================================
@@ -16,15 +18,26 @@ jumbotron
  */
 
 .jumbotron {
-  max-height: 640px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
+    max-width: 100%;
+    max-height: 80%;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/kanye.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.jumbotron img {
-  height: 640px;
+.jumbotron:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    padding-top: 4.918%;
+    /* slope */
+    height: 102.786px;
+    /* start height */
 }
+
 
 /*
 ============================================
@@ -32,10 +45,10 @@ update button
 ============================================
  */
 
- .jumbotron .update-btn {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 100px;
-  height: 30px;
- }
+.jumbotron .update-btn {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 100px;
+    height: 30px;
+}
