@@ -1,0 +1,52 @@
+/*
+  ========================================
+  Main Styling
+  ========================================
+*/
+
+body {
+  padding-top: 70px;
+  background: #EDF5F5;
+}
+
+.jumbotron {
+  background: rgba(0,128,128,.2);
+}
+
+.jumbotron h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 90px;
+  color: purple;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.jumbotron p {
+  text-align: right;
+  padding-right: 19em;
+}
+
+.jumbotron #button {
+  text-align: right;
+  padding-right: 26em;
+}
+
+h2 {
+  font-family: "PT sans", sans-serif;
+  font-size: 50px;
+  text-align: right;
+  color: black;
+  border-width: 6px;
+  border-style: none solid solid none;
+  border-color: teal;
+}
+
+p {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 20px;
+}
+
+.navbar-text {
+  font-size: 15px;
+  margin-right: 1em;
+}
