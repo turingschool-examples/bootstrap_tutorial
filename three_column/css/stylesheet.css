@@ -1,0 +1,19 @@
+body { 
+      padding-top: 70px; 
+     }
+     
+h1 { 
+     color: tomato; 
+    }
+
+.col-md-4 {
+       color: white;
+       background: tomato;
+       border: 6px solid #cccccc;
+      }
+      
+nav div {
+       background: #cccccc;
+       font-weight: 400;
+       color: white;
+      }
