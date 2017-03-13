@@ -1,0 +1,18 @@
+body { 
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.jumbotron {
+  background-image: url('../images/kanye.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*width:900px;*/
+  height:370px;
+  class:img-responsive;
+}
+
+.btn {
+  position: absolute;
+  top: 80px;
+}
