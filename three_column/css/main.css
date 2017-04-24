@@ -1,0 +1,43 @@
+.main {
+  color: #041A29;
+  background-color: #829DB0;
+}
+
+button h2 {
+  text-align: center;
+}
+
+.dropdown-alt {
+  background-color: #C0C1DB;
+  padding: 10px;
+}
+
+.button-alt {
+  width: 100%;
+  border-radius: 15px;
+  border-color: #1C425D;
+  background-color: #587A92;
+}
+
+.button-alt:hover {
+  border-color: #1C425D;
+  background-color: #365D78;
+}
+
+.button-alt:active:hover {
+  border-color: #1C425D;
+  background-color: #E4CB84;
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  background-color: #E4CB84;
+  border-color: #1C425D;
+}
