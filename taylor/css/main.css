@@ -1,0 +1,26 @@
+.navbar-right {
+    margin-right: 20px
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.jumbotron {
+    width: 75%;
+    margin-top: 0;
+    padding-top: 0
+}
+
+.container-hero {
+    margin-top: 0;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    border: solid 1px #e6e6e6;
+    border-top: 0;
+}
+
+.text-center {
+    margin-top: 25px
+}
