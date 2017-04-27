@@ -1,0 +1,20 @@
+.navbar {
+  background-color: black;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.large-banner {
+  max-width: 100%;
+}
+
+.btn-floating {
+  position: absolute; left: 5%; top: 5px;
+}

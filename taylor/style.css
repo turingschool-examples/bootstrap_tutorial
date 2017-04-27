@@ -1,0 +1,41 @@
+.headline {
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.basic-button {
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  padding: 6px 18px;
+}
+
+.color-button {
+  border-radius: 3px;
+  color: white;
+  border: 1px solid #e6e6e6y;
+  padding: 6px 18px;
+}
+.blue-button {
+  background-color:#2466a8;
+}
+
+.green-button {
+  background-color:#29a329;
+}
+
+.cerulean-button {
+  background-color:#33ccff;
+}
+
+.marigold-button {
+  background-color:#ffcc00;
+}
+
+.column-container {
+  text-align: center;
+}
+
+.row-container {
+  padding-top: 20px;
+}
