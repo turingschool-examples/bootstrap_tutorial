@@ -1,0 +1,28 @@
+body {
+  padding-top: 51px;
+}
+
+img {
+  max-width: 100%;
+  display:block;
+  height: auto;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  left: 175px;
+  top: 70px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.col-md-4 {
+  text-align: left;
+}
