@@ -1,0 +1,31 @@
+body {
+  padding-top: 51px;
+}
+
+.jumbotron {
+  padding: .5cm;
+  position: relative;
+  vertical-align: middle;
+}
+
+.jumbotron p {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  display: inline-block;
+}
+
+.jumbotron img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
