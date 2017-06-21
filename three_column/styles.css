@@ -1,0 +1,17 @@
+/*styles.css*/
+.col-md-4 {
+    border-style: outset;
+    background: #CCC7C6;
+}
+h1 {
+    text-align: center;
+    border-style: outset;
+    padding: 20px;
+}
+.image {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
