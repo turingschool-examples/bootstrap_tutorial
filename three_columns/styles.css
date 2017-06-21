@@ -1,0 +1,24 @@
+div.container {
+  background-color: #11DABF;
+  height: 600px
+}
+
+h1 {
+  font-weight: bolder;
+  font-family: fantasy;
+}
+
+h2{
+  text-decoration: underline
+}
+
+.col-md-4 {
+  background-color: #DAE5E4;
+  border: 2px solid grey;
+  border-radius: 2px;
+  height:350px
+}
+
+body {
+  background-color: rgb(182, 199, 197)
+}
