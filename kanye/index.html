@@ -2,29 +2,41 @@
 <html lang = 'en'>
   <head>
     <title>Kanye Fest</title>
-    <link href='../css/bootstrap.css' rel='stylesheet'>
+    <link href='css/bootstrap.css' rel='stylesheet'>
   </head>
   <body>
-    <div class = 'col-md-12 navbar navbar-default navbar-static-top'>
-      <a href='' class='navbar-brand'>Ye Fest</a>
-        <ul class='nav navbar-nav navbar-right'>
-          <li><a href =''>Videos</a></li>
-          <li><a href =''>Store</a></li>
-          <li><a href =''>Albums</a></li>
-        </ul>
-
-
-        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script src='js/bootstrap.js'></script>
-
+    <nav class="navbar navbar-default">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class = 'col-md-12 navbar navbar-default'>
+          <a href='' class='navbar-brand'>Ye Fest</a>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Album <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">College Dropout </a></li>
+                <li><a href="#">Late Registration </a></li>
+                <li><a href="#">Graudation </a></li>
+                <li><a href="#">808's and HeartBreak</a></li>
+                <li><a href="#">MBDTF </a></li>
+                <li><a href="#">Watch the Throne</a></li>
+                <li><a href="#">Yeezus </a></li>
+                <li><a href="#">Life of Pablo </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
+  <div class="container">
+    <a class="btn btn-info" href="#" role="button">Updates </a>
+  </div>
         <div class="container">
           <img src="images/kanye.jpg" alt="kanye" class="img-responsive">
         </div>
 
-        <div class='row text-center'>
+        <div class='row text-left'>
           <div class='col-md-4'>
             <h3>Twisted</h3>
             <p>PLACE DE LA FONTAINE STRAVINSKY QUAI DE VALMY RUE D’ULM - PLACE DU PANTHEON 750 BOOST GREY WITH GUM SOLE HYATT REGENCY HOTEL DRIVE AND REUNION BLVD EAST @ 10:30PM KEATING DRIVE AND COTTON BOWL CIRCLE @ 11:30PM I forgot to add Daniel Ek
@@ -45,20 +57,8 @@
         </div>
 
     </body>
-
-Link: Videos
-Link: Store
-Link: Albums (dropdown)
-  Link: College Dropout
-  Link: Late Registration
-  Link: Graduation
-  Link: 808's and Heartbreak
-  Link: MBDTF
-  Link: Watch the Throne
-  Link: Yeezus
-  Link: Life of Pablo
-
-button: Updates
-
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </html>
