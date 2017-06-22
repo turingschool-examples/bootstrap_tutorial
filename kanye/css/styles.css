@@ -1,0 +1,30 @@
+.nav-bar {
+  background-color: #7a0202;
+}
+
+
+#header {
+  margin-top: -20px;
+  height: 500px;
+  width: 100%;
+}
+
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+    width: 100%;
+}
+
+.button {
+    color: #7a0202;
+    position:absolute;
+    bottom:440px;
+    right:1150px;
+    width:100px;
+    height:30px;
+}
+
+#jazzflute {
+  background-color: #7a0202;
+}
