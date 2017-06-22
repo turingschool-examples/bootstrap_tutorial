@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang ='en'>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Babby's First Bootstrap Site</title>
     <link href='css/bootstrap.css' rel='stylesheet'>
   </head>
   <body>
     <div class=''>
-      <a href='/' class=''>Babby's First Bootstrap Site</a>
-      <ul class=''>
-        <li><a href = "about.html">About</a></li>
-        <li><a href = "things.html">Things</a></li>
-        <li><a href = "things2.html">Moar Things</a></li>
-      </ul>
+      <nav class = "navbar navbar-default">
+        <div class="navbar-header">
+          <a href='/' class='navbar-brand'>Babby's First Bootstrap Site</a>
+        </div>
+        <ul class='nav navbar-nav navbar-right'>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "things.html">Things</a></li>
+          <li><a href = "things2.html">Moar Things</a></li>
+        </ul>
+      </nav>
     </div>
 
     <div class=''>
-      <div class=''>
-        <div class=''>
-          <h2>I'm learning Bootstrap!</h2>
-          <p>Biscuit gingerbread powder. Marshmallow donut pie lollipop sugar plum jelly beans. Jelly-o wafer cake candy cotton candy. Brownie icing gummies marshmallow bonbon I love souffle lemon drops tart. I love I love toffee. Tart jujubes candy canes. Toffee chupa chups dragee gummies chocolate bar caramels powder topping brownie. Tiramisu bear claw jelly beans halvah toffee biscuit powder. Chocolate chupa chups marzipan jelly sweet roll. Brownie pastry pie lollipop. I love jujubes fruitcake cupcake candy canes apple pie dragee. Sugar plum candy canes pastry caramels bonbon brownie chocolate. Lemon drops sugar plum cake.</p>
-          <button type = 'button' class=''>This is button</button>
-          <button type = 'button' class=''>Push Butan</button>
-        </div>
+      <div class='container'>
+        <div class = "jumbotron">
+          <div class = "row">
+            <div class='col-md-8'>
+              <h2>I'm learning Bootstrap!</h2>
+              <p>Biscuit gingerbread powder. Marshmallow donut pie lollipop sugar plum jelly beans. Jelly-o wafer cake candy cotton candy. Brownie icing gummies marshmallow bonbon I love souffle lemon drops tart. I love I love toffee. Tart jujubes candy canes. Toffee chupa chups dragee gummies chocolate bar caramels powder topping brownie. Tiramisu bear claw jelly beans halvah toffee biscuit powder. Chocolate chupa chups marzipan jelly sweet roll. Brownie pastry pie lollipop. I love jujubes fruitcake cupcake candy canes apple pie dragee. Sugar plum candy canes pastry caramels bonbon brownie chocolate. Lemon drops sugar plum cake.</p>
+              <button type = 'button' class=''>This is button</button>
+              <button type = 'button' class=''>Push Butan</button>
+            </div>
 
-        <div class=''>
-          <img src='images/taylor.jpg' alt='taylor' class=''>
+          <div class='col-md-4'>
+            <img src='images/taylor.jpg' alt='taylor' class=''>
+          </div>
         </div>
       </div>
+    </div>
 
-    <div class=''>
-      <div class=''>
+    <div class='row'>
+      <div class='col-md-4'>
         <i class=''></i>
         <h3>Something goes here</h3>
         <p>Bacon ipsum dolor amet filet mignon drumstick doner chicken. Pig drumstick pork loin chicken. Cow tail brisket frankfurter flank, chuck alcatra venison pancetta sirloin. Pork belly leberkas pork loin meatloaf.</p>
