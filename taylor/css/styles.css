@@ -1,0 +1,43 @@
+/*styles.css*/
+p {
+  /*margin: 10px 15px 10px 15px;*/
+}
+.row {
+  /*margin: 50px 100px 50px 100px;
+  padding: 25px;*/
+}
+.top {
+  background-color: #eee;
+  padding: 20px 100px 20px 0px;
+  margin: -20px 100px 20px 100px;
+}
+.col-md-4 {
+  text-align: center;
+}
+.col-md-8 p {
+  margin: 5px 50px 5px 0px;
+  padding: 0px 0px 5px 0px;
+}
+
+button {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background: white;
+}
+.button-1 {
+  background-color: #9477cb;
+  color: white;
+}
+.button-2 {
+  background-color: #1bb21b;
+  color: white;
+}
+.button-3 {
+  background-color: #20cadd;
+  color: white;
+}
+.button-4 {
+  background-color: #ffc04d;
+  color: white;
+}
