@@ -1,0 +1,33 @@
+img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.col-md-12 {
+  background-color: rgb(34, 34, 34)
+}
+.far-right{
+  margin-right: 5px
+}
+
+.inline{
+  display: inline
+}
+.btn-primary{
+  background-color: rgb(55, 123, 181);
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+a.primary-btn{
+  text-align: center;
+  color: white;
+}
+
+.mid-page {
+  height: 700px;
+}
