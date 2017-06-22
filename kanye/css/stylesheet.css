@@ -1,0 +1,22 @@
+.navbar {
+  margin-bottom: 0;
+}
+.img-wrapper {
+  position: relative;
+ }
+.crop {
+  margin-top: -92px;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 75%;
+  text-align: center;
+}
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  height: 10%;
+}
