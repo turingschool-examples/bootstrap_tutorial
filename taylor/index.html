@@ -2,15 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Babby's First Bootstrap Site</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="navbar-header">
-        <span class='navbar-brand'>Babby's First Bootstrap Site</span>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class='navbar-header'>
+          <span class='navbar-brand'>Babby's First Bootstrap Site</span>
+        </div>
+
+        <div class="nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Things</a></li>
+          <li><a href="#">Moar Things</a></li>
+        </div>
       </div>
     </nav>
 
@@ -30,8 +36,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4 text-center">
+      <div class="row text-center">
+        <div class="col-md-4">
           <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
           <h3>Something goes here</h3>
           <p>
@@ -40,7 +46,7 @@
           <button type='button' class='btn btn-success'>That's a bold move, Button</button>
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-4">
           <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
           <h3>Something else goes here</h3>
           <p>
@@ -49,7 +55,7 @@
           <button type='button' class='btn btn-info'>In Soviet Russia</button>
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-4">
           <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
           <h3>I have no idea what I'm doing</h3>
           <p>
