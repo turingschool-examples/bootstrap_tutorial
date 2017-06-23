@@ -4,9 +4,6 @@
 .img-wrapper {
   position: relative;
  }
-.crop {
-  margin-top: -92px;
-}
 .img-overlay {
   position: absolute;
   top: 0;
@@ -19,4 +16,10 @@
   content: ' ';
   display: block;
   height: 10%;
+}
+.center-cropped {
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
