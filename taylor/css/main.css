@@ -1,0 +1,9 @@
+body { padding-top: 70px; }
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.well {
+  border: 1px;
+  padding: 20px;
+}
