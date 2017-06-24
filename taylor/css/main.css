@@ -7,3 +7,7 @@ body { padding-top: 70px; }
   border: 1px;
   padding: 20px;
 }
+.center {
+  margin: 0 auto;
+  width: 80%;
+}
