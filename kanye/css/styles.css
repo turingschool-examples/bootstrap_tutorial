@@ -1,0 +1,14 @@
+#updates-btn {
+  position: absolute;
+  top: 25%;
+  left:10%;
+}
+.container {
+  padding: 0 60px;
+}
+img {
+  min-width: 1000px;
+}
+.crop-div {
+  overflow: hidden;
+}
