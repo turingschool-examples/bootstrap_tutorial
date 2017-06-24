@@ -1,0 +1,7 @@
+.row {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.col-md-4 {
+  border-style: solid;
+}
