@@ -6,14 +6,37 @@
     <link href='css/bootstrap.css' rel='stylesheet'>
   </head>
   <body>
-    <div class='col-md-12 navbar navbar-inverse'>
+    <div class='col-md-12 navbar navbar-inverse navbar-fixed-top'>
       <a href='/' class='navbar-brand'>Kanye Fest</a>
       <ul class='nav navbar-nav navbar-right'>
         <li><a href='#'>Videos</a></li>
+        <li><a href='#'>Store</a></li>
+        <li class='dropdown'>
+          <a class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Albums
+            <span class="caret"></span>
+          </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">College Dropout</a></li>
+              <li><a href="#">Late Registration</a></li>
+              <li><a href="#">Gradutation</a></li>
+              <li><a href="#">80's and Heartbreak</a></li>
+              <li><a href="#">MBDTF</a></li>
+              <li><a href="#">Watch the Throne</a></li>
+              <li><a href="#">Yeezus</a></li>
+              <li><a href="#">Life of Pablo</a></li>
+            </ul>
+          </li>
       </ul>
+    </div>
+
+    <div class='container'>
+        <button type='button' class='btn btn-primary'>Updates</button>
+        <img src='images/kanye.jpg' alt='kanye' class='img-responsive'/>
+    </div>
+
       <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
       <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script src='js/bootstrap.js'></script>
-    </div>
   </body>
 </html>
