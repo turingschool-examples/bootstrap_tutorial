@@ -6760,10 +6760,31 @@ button.close {
   padding-left: 150px;
 }
 
+.navbar-default {
+    background-color: #000000;
+    border-color: #696969;
+}
+
+.navbar-default-text {
+  color: #696969;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #000000;
+}
+
+.navbar-nav > li > .dropdown-menu > li > a:hover {
+  background-color: #696969;
+}
+
+.navbar-nav a{
+  font-size: 1.0em
+}
+
 button {
   position: fixed;
-  top: 80px;
-  left: 80px;
+  top: 100px;
+  left: 150px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
