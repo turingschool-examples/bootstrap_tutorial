@@ -6798,16 +6798,24 @@ button.close {
   }
 }
 
-body { padding-top: 40px; }
+body { padding-top: 10px; }
 
 .navbar-link {
      padding-left:20px;
      padding-right:10px;
 }
 
-.jumbotron {
-  padding-left: 15px;
-  padding-right: 15px;
+.page-header {
+  width: 90%;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #FBF6F5;
+}
+
+.fluid-container{
+  /*width: 90%;*/
+  padding-left: 95px;
+  padding-right: 95px
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
