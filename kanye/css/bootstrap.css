@@ -6757,8 +6757,13 @@ button.close {
 
 .fluid-container{
   /*width: 90%;*/
-  padding-top: 40px;
   padding-left: 150px;
+}
+
+button {
+  position: fixed;
+  top: 80px;
+  left: 80px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
