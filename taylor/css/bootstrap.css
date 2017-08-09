@@ -6805,8 +6805,9 @@ body { padding-top: 40px; }
      padding-right:10px;
 }
 
-#jumbo {
-  padding: 50px
+.jumbotron {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
