@@ -6797,4 +6797,7 @@ button.close {
     display: none !important;
   }
 }
+
+body { padding-top: 40px; }
+
 /*# sourceMappingURL=bootstrap.css.map */
