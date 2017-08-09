@@ -6800,4 +6800,13 @@ button.close {
 
 body { padding-top: 40px; }
 
+.navbar-link {
+     padding-left:20px;
+     padding-right:10px;
+}
+
+#jumbo {
+  padding: 50px
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
