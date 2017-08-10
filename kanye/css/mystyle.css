@@ -2,9 +2,27 @@
 		max-width: 100%;
 		align: right;
 		float: top;
+		top: 10px
+
 	}
 	#floating-button-1{
 		position: absolute;
 		top:  100px;
 		left: 100px;
 	}
+
+	.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
