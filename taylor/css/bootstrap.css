@@ -6816,11 +6816,33 @@ button.close {
   color: white;
 }
 
-.col {
-  text-align: center;
-}
 
 .h3p {
   font-size: 20px;
+}
+
+#middle {
+  background-color: #f6f6f6;
+}
+
+.taylor {
+  border-radius: 5px;
+}
+
+#white {
+  background-color: white;
+}
+
+#darkblue {
+  background-color: #000080;
+  color: white;
+}
+
+.row_bottom {
+  text-align: center;
+}
+
+#gray {
+  background-color: #f1f1f1;
 }
 /*# sourceMappingURL=bootstrap.css.map */
