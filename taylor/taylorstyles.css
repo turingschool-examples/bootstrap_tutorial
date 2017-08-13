@@ -1,0 +1,36 @@
+nav span {
+      font-size: 20px;
+}
+nav div {
+      font-size: 15px;
+      float: right;
+}
+#top {
+      background: rgb(255, 255, 255);
+}
+button {
+      padding: 0.5em;
+}
+#bluebutton {
+      background: rgb(96, 116, 213);
+      color: white;
+}
+#greenbutton {
+      background: rgb(86, 208, 77);
+      color: white;
+}
+#aquabutton {
+      background: rgb(69, 226, 238);
+      color: white;
+}
+#orangebutton {
+      background: rgb(247, 189, 52);
+      color: white
+}
+article {
+      margin-top: 15px;
+      text-align: center;
+}
+article h2 {
+      font-size: 20px;
+}
