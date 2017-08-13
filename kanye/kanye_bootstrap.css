@@ -6798,51 +6798,25 @@ button.close {
   }
 }
 
-#orange {
-  background-color: orange;
-  border-radius: 5px;
-  color: white;
+#navbar {
+  background-color: #333333;
 }
 
-#blue {
-  background-color: #00bfff;
-  border-radius: 5px;
-  color: white;
+#kanye_pic {
+  width: 100%;
 }
 
-#green {
-  background-color: #6faa6a;
+#updates {
+  background-color: #4c4cff;
   border-radius: 5px;
   color: white;
-}
-
-
-.h3p {
-  font-size: 20px;
+  margin-left: 125px;
+  margin-top: 50px;
+  position: absolute;
 }
 
 #middle {
-  background-color: #f6f6f6;
-}
-
-.taylor {
-  border-radius: 5px;
-}
-
-#white {
-  background-color: white;
-}
-
-#darkblue {
-  background-color: #000080;
-  color: white;
-}
-
-.row_bottom {
-  text-align: center;
-}
-
-#gray {
-  background-color: #f1f1f1;
+  position:relative;
+  display:inline-block;
 }
 /*# sourceMappingURL=bootstrap.css.map */
