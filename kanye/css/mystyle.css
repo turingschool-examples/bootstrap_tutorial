@@ -1,0 +1,14 @@
+	.fit{
+		max-width: 100%;
+		align: right;
+		float: top;
+		top: 10px
+
+	}
+	#floating-button-1{
+		position: absolute;
+		top:  100px;
+		left: 100px;
+	}
+
+	
