@@ -1,0 +1,12 @@
+body img {
+        height: 717px;
+        width: 1270px;
+        left: 100px;
+        position: absolute;
+}
+body h2 {
+        margin: 0.7em;
+}
+#info {
+        background: rgba(255, 255, 255, 1)
+}
