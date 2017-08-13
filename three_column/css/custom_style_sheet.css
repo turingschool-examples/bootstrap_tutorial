@@ -1,0 +1,40 @@
+h1 {
+  background-color: #f2f6c3;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  background-color: #b8dbd3;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  background-color: #f7e7b4;
+  padding: 10px
+}
+
+.row {
+  background-color: #68c4af;
+}
+
+body {
+  background-color: #96ead7;
+}
+
+.container {
+  background-color: #68c4af;
+}
+
+.navbar {
+  background-color: #b8dbd3;
+}
+
+.dropdown-menu {
+  background-color: #f7e7b4;
+}
+
+.active {
+  background-color: #f2f6c3;
+}
